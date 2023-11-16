@@ -1,0 +1,28 @@
+{
+    "name": "flickenteppich",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "start": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@solidjs/router": "^0.8.4",
+        "solid-js": "^1.7.8"
+    },
+    "devDependencies": {
+        "@solidjs/testing-library": "^0.8.4",
+        "autoprefixer": "^10.4.16",
+        "bun-types": "latest",
+        "postcss": "^8.4.31",
+        "tailwindcss": "^3.3.5",
+        "typescript": "^5.0.2",
+        "vite": "^4.4.5",
+        "vite-plugin-solid": "^2.7.0",
+        "vite-plugin-solid-markdown": "^0.0.6"
+    },
+    "module": "index.ts"
+}

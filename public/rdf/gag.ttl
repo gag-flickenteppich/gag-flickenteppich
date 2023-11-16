@@ -1,0 +1,2984 @@
+@base <http://gag-flickenteppich.github.io/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema:	<http://schema.org/> .
+
+<#episode/1>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG01: Vier Langobarden-Könige und ein Trinkbecher" ;
+	schema:episodeNumber 1 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs01/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" ;
+	schema:mentions <#person/alboin> .
+
+<#episode/2>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG02: Tatortschau mit Wiedererkennungswert" ;
+	schema:episodeNumber 2 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs02/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/3>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG03: Fitness-Parcours für den Pharao" ;
+	schema:episodeNumber 3 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs03/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" ;
+	schema:mentions <#person/alboin> .
+
+<#episode/4>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG04: Wellingtons Rache, oder: Ein Bein für ein Königreich" ;
+	schema:episodeNumber 4 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs04/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/5>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG05: Lernen Sie Geschichte!" ;
+	schema:episodeNumber 5 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs05/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/6>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG06: Ada und die Pferdewetten" ;
+	schema:episodeNumber 6 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs06/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/7>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG07: Geteilte Habsburger" ;
+	schema:episodeNumber 7 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs07/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/8>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG08: Herr der Fliegen" ;
+	schema:episodeNumber 8 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs08/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/9>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG09: Wer den englischen Parlamentsbrand auf dem Kerbholz hat" ;
+	schema:episodeNumber 9 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs09/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/10>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG10: Craigslist in der Frühen Neuzeit" ;
+	schema:episodeNumber 10 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs10/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/11>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG11: Von Kindern und Kegeln" ;
+	schema:episodeNumber 11 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs11/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/12>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG12: Ein Kaiser, ein Gott, viele Todesfälle" ;
+	schema:episodeNumber 12 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs12/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/13>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG13: Ein Spionagefall erschüttert die Habsburger Monarchie" ;
+	schema:episodeNumber 13 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs13/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/14>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG14: Ein englisches Atlantis" ;
+	schema:episodeNumber 14 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs14/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/15>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG15: Das Mailüfterl" ;
+	schema:episodeNumber 15 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs15/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/16>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG16: Ton, Steine, Scherben oder wie Rom sich einen achten Hügel baute" ;
+	schema:episodeNumber 16 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs16/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/17>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG17: Eine Urkunde, ein Zeltlager und eine Fälschung" ;
+	schema:episodeNumber 17 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs17/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/18>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG18: Wie Russland den Bart verlor" ;
+	schema:episodeNumber 18 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs18/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/19>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG19: Wenn ein Wissenschaftler an Drachen glaubt" ;
+	schema:episodeNumber 19 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs19/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/20>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG20: Von Drachenknochen und Schildkrötenorakeln" ;
+	schema:episodeNumber 20 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs20/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/21>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG21: Von der Erfindung der Einbauküche" ;
+	schema:episodeNumber 21 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs21/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/22>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG22: Vom Goldjungen zum Staatsgefangenen" ;
+	schema:episodeNumber 22 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs22/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/23>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG23: Ziemlich beste Feindschaft oder Die Anfänge der Bakteriologie" ;
+	schema:episodeNumber 23 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs23/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/24>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG24: A French Connection, zum Scheitern verurteilt" ;
+	schema:episodeNumber 24 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs24/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/25>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG25: Eine kaiserliche Bibliothek des Menschengeschlechts" ;
+	schema:episodeNumber 25 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs25/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/26>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG26: Wie der Champagner zu seinen Bläschen kam" ;
+	schema:episodeNumber 26 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs26/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/27>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG27: Die Rote Zora und ihre Vorfahren" ;
+	schema:episodeNumber 27 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs27/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/28>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG28: Von Appenzellern, Bregenzern und einer Frau namens Guta" ;
+	schema:episodeNumber 28 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs28/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/29>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG29: Ein Müller in den Fängen der Inquisition" ;
+	schema:episodeNumber 29 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs29/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/30>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG30: Wie die Zeit zu unserer Zeit wurde" ;
+	schema:episodeNumber 30 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs30/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/31>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG31: Blitzkrieg im Fußballstadion" ;
+	schema:episodeNumber 31 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs31/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/32>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG32: Henry Gunther" ;
+	schema:episodeNumber 32 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs32/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/33>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG33: Curta – eine Rechenmaschine und ihre Geschichte" ;
+	schema:episodeNumber 33 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs33/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/34>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG34: Tee, Silber und Rauschmittel" ;
+	schema:episodeNumber 34 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs34/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/35>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG35: Magia Posthuma – Vampirismus in Zeiten der Aufklärung" ;
+	schema:episodeNumber 35 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs35/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/36>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG36: Eine sehr kurze Geschichte des Deodorants" ;
+	schema:episodeNumber 36 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs36/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/37>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG37: Eine Reise um die Welt" ;
+	schema:episodeNumber 37 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs37/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/38>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG38: Eine kurze Geschichte der Leibeigenschaft" ;
+	schema:episodeNumber 38 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs38/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/39>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG39: Die Legion Erzengel Michael und Corneliu Codreanu" ;
+	schema:episodeNumber 39 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs39/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/40>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG40: Über den Ursprung der Seidenstraße" ;
+	schema:episodeNumber 40 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs40/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/41>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG41: Der Wiener Kreis und die Ermordung von Moritz Schlick" ;
+	schema:episodeNumber 41 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs41/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/42>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG42: The City of Roses – Ein Rosengarten für Portland" ;
+	schema:episodeNumber 42 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs42/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/43>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG43: Josef Eisemann, Seiltänzer in Wien" ;
+	schema:episodeNumber 43 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs43/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/44>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG44: Eine kurze Geschichte der Süßigkeiten" ;
+	schema:episodeNumber 44 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs44/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/45>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG45: Zwentendorf – Das sicherste Kernkraftwerk der Welt" ;
+	schema:episodeNumber 45 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs45/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/46>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG46: Aufstieg und Fall der Republik Ragusa" ;
+	schema:episodeNumber 46 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs46/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/47>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG47: Die Schwabenkinder und ihre Geschichte" ;
+	schema:episodeNumber 47 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs47/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/48>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG48: George Ansons katastrophale Expedition – und ihre Folgen" ;
+	schema:episodeNumber 48 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs48/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/49>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG49: Der »Dig Tree« und die erste Durchquerung Australiens" ;
+	schema:episodeNumber 49 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs49/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/50>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG50: Ossian, ein altgälisches Epos wie keines davor" ;
+	schema:episodeNumber 50 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs50/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/51>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG51: Eine kurze Geschichte der Rhythmologie und der Erforschung des Herzens" ;
+	schema:episodeNumber 51 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs51/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/52>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG52: Die Geschichte der Annie Londonderry, „New Woman“ und Fahrradweltreisende" ;
+	schema:episodeNumber 52 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs52/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/53>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG53: Ein Verrat und ein langer Strich auf der Berliner Mauer" ;
+	schema:episodeNumber 53 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs53/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/54>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG54: Die erste Rektorin einer deutschen Universität" ;
+	schema:episodeNumber 54 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs54/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/55>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG55: Der letzte Kammerdiener des alten Kaisers" ;
+	schema:episodeNumber 55 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs55/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/56>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG56: Piggly Wiggly und die Geschichte des Supermarkts" ;
+	schema:episodeNumber 56 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs56/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/57>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG57: Von Grabtüchern, Knochen und wieder mal Venedig" ;
+	schema:episodeNumber 57 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs57/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/58>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG58: Londoner Kutschenstreit" ;
+	schema:episodeNumber 58 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs58/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/59>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG59: The Lost Colony" ;
+	schema:episodeNumber 59 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs59/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/60>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG60: Wie das Essengehen erfunden wurde" ;
+	schema:episodeNumber 60 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs60/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/61>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG61: Die niederländische „Tulpenmanie“ (und warum sie gar nicht so schlimm war)" ;
+	schema:episodeNumber 61 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs61/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/62>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG62: Eine kurze Geschichte der Rollschuhe und des Rollschuhfahrens" ;
+	schema:episodeNumber 62 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs62/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/63>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG63: Konstantin und die Janitscharen" ;
+	schema:episodeNumber 63 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs63/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/64>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG64: Paul Dirac und die Schönheit der Mathematik" ;
+	schema:episodeNumber 64 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs64/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/65>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG65: Die Erfindung des diamantenen Verlobungsrings" ;
+	schema:episodeNumber 65 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs65/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/66>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG66: Der Aufstieg Hamburgs – Fake it ‚til you make it" ;
+	schema:episodeNumber 66 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs66/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/67>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG67: Palladio, der erfolgreichste Architekt aller Zeiten" ;
+	schema:episodeNumber 67 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs67/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/68>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG68: Eine ganz kleine Geschichte der Mikroskopie" ;
+	schema:episodeNumber 68 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs68/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/69>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG69: Die Boston Melasse Katastrophe" ;
+	schema:episodeNumber 69 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs69/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/70>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG70: Die Würzburger Lügensteine" ;
+	schema:episodeNumber 70 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs70/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/71>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG71: Wie die Kartoffel nach Europa kam (und alles veränderte)" ;
+	schema:episodeNumber 71 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs71/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/72>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG72: Phantominseln" ;
+	schema:episodeNumber 72 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs72/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/73>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG73: Ludwig XIV. und seine pikante Operation" ;
+	schema:episodeNumber 73 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs73/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/74>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG74: Die Bonnot-Bande und die Erfindung des Fluchtautos" ;
+	schema:episodeNumber 74 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs74/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/75>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG75: Sobhuza II., König von Swaziland" ;
+	schema:episodeNumber 75 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs75/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/76>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG76: Holdouts – Japans vergessene Soldaten" ;
+	schema:episodeNumber 76 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs76/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/77>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG77: Der Augsburger Kalenderstreit: Folgen eines tatsächlichen Zeitsprungs" ;
+	schema:episodeNumber 77 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs77/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/78>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG78: Eine kurze Geschichte der Sommerzeit" ;
+	schema:episodeNumber 78 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs78/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/79>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG79: Das Rolandslied – über Heldentaten, Karl den Großen und Kreuzzugspropaganda" ;
+	schema:episodeNumber 79 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs79/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/80>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG80: Eine Kirche auf dem Dachboden – Reformation und das Goldene Zeitalter in den Niederlanden" ;
+	schema:episodeNumber 80 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs80/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/81>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG81: Eine kurze Geschichte des Essbestecks (aber ohne Löffel)" ;
+	schema:episodeNumber 81 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs81/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/82>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG82: Victor Gruen und die Erfindung des Einkaufszentrums" ;
+	schema:episodeNumber 82 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs82/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/83>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG83: 100 Jahre vor der Reformation – Jan Hus und die Hussitenkriege" ;
+	schema:episodeNumber 83 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs83/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/84>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG84: Eine kleine Geschichte des Klimas und des Klimawandels" ;
+	schema:episodeNumber 84 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs84/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/85>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG85: Ein Arm, ein Hai, ein Kriminalfall" ;
+	schema:episodeNumber 85 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs85/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/86>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG86: Sabbatai Zwi – Der falsche Messias" ;
+	schema:episodeNumber 86 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs86/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/87>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG87: Die Einführung von Freigeld und das Wunder von Wörgl" ;
+	schema:episodeNumber 87 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs87/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/88>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG88: Von der Tanzwut und ihrer (wahrscheinlichen) Ursache" ;
+	schema:episodeNumber 88 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs88/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/89>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG89: Seelenkonskription – die Anfänge der modernen Volkszählungen" ;
+	schema:episodeNumber 89 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs89/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/90>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG90: Aufstieg und Fall des Roger Casement" ;
+	schema:episodeNumber 90 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs90/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/91>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG91: Jan van Eyck – Der König unter den Malern und die Erfindung des Gemäldes" ;
+	schema:episodeNumber 91 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs91/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/92>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG92: Die Geschichte der Typhoid Mary" ;
+	schema:episodeNumber 92 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs92/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/93>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG93: Das Geheimnis des Lebens – Wie es zur Entdeckung der Doppelhelix kam" ;
+	schema:episodeNumber 93 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs93/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/94>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG94: Wer zittert nicht vor den Mohocks?" ;
+	schema:episodeNumber 94 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs94/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/95>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG95: Der Aufstieg des Jakob Fugger" ;
+	schema:episodeNumber 95 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs95/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/96>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG96: Von der Entstehung des Croissants und anderen kulinarischen Mythen" ;
+	schema:episodeNumber 96 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs96/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/97>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG97: Neutral-Moresnet – Ein Niemandsland mitten in Europa" ;
+	schema:episodeNumber 97 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs97/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/98>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG98: Über Schoßhunde und gierige Affen" ;
+	schema:episodeNumber 98 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs98/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/99>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG99: Ignaz Semmelweis und die Bekämpfung des Kindbettfiebers" ;
+	schema:episodeNumber 99 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs99/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/100>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG100: Der Fall der „Mignonette“ und seine Folgen" ;
+	schema:episodeNumber 100 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs100/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/101>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG101: Leon Theremin – Was die Anfänge der elektronischen Musik mit Überwachungstechniken zu tun haben" ;
+	schema:episodeNumber 101 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs101/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/102>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG102: Ein Picknick, das die Welt verändert" ;
+	schema:episodeNumber 102 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs102/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/103>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG103: Demoskopie – eine kurze Geschichte der (politischen) Meinungsforschung" ;
+	schema:episodeNumber 103 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs103/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/104>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG104: Crécy – Chronik eines Versagens" ;
+	schema:episodeNumber 104 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs104/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/105>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG105: Skanderbeg – Ein neuer Alexander und seine Bedeutung für die Geschichte Albaniens" ;
+	schema:episodeNumber 105 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs105/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/106>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG106: Das Darién-Projekt und seine Folgen" ;
+	schema:episodeNumber 106 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs106/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/107>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG107: Eine kurze Geschichte der Guillotine" ;
+	schema:episodeNumber 107 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs107/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/108>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG108: Der Paderborner Kaffeelärm" ;
+	schema:episodeNumber 108 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs108/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/109>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG109: Der Lotterieaufstand in Albanien" ;
+	schema:episodeNumber 109 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs109/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/110>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG110: 110, 112, 999, etc." ;
+	schema:episodeNumber 110 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs110/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/111>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG111: Die Anfänge des Esperanto" ;
+	schema:episodeNumber 111 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs111/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/112>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG112: Adele Spitzeder und die „Dachauer Bank“" ;
+	schema:episodeNumber 112 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs112/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/113>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG113: Die Hep-Hep-Unruhen von 1819" ;
+	schema:episodeNumber 113 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs113/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/114>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG114: Gerhard Zucker und sein Raketentraum" ;
+	schema:episodeNumber 114 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs114/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/115>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG115: Eine kurze Geschichte der Hanse" ;
+	schema:episodeNumber 115 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs115/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/116>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG116: Über Basken, Wale und ein Massaker auf Island" ;
+	schema:episodeNumber 116 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs116/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/117>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG117: Tunix, Tuwat und die Entstehung des Chaos Computer Clubs" ;
+	schema:episodeNumber 117 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs117/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/118>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG118: Ein Werwolf in Livland" ;
+	schema:episodeNumber 118 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs118/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/119>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG119: Die NS-Thingbewegung – Thingstätten und Thingspiele" ;
+	schema:episodeNumber 119 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs119/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/120>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG120: Die Rückkehr des Martin Guerre" ;
+	schema:episodeNumber 120 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs120/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/121>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG121: Leopardenmorde und Leopardenmenschen" ;
+	schema:episodeNumber 121 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs121/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/122>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG122: Die Belagerung von Masada" ;
+	schema:episodeNumber 122 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs122/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/123>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG123: Christian Gottlieb Prieber – Aussteiger, Renegade und beinahe vergessener Utopist" ;
+	schema:episodeNumber 123 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs123/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/124>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG124: Eine kleine Geschichte des Chinese Restaurant Syndroms" ;
+	schema:episodeNumber 124 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs124/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/125>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG125: Republik Fredonia" ;
+	schema:episodeNumber 125 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs125/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/126>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG126: Für immer im Eis – die Franklin Expedition" ;
+	schema:episodeNumber 126 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs126/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/127>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG127: Struensee – Aufstieg und Fall eines Arztes, der (für kurze Zeit) zum dänischen Regenten wurde" ;
+	schema:episodeNumber 127 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs127/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/128>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG128: Crash at Crush" ;
+	schema:episodeNumber 128 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs128/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/129>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG129: Die Entdeckung der Dinosaurier" ;
+	schema:episodeNumber 129 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs129/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/130>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG130: Alexander von Abonuteichos oder Wie ein Kult entsteht" ;
+	schema:episodeNumber 130 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs130/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/131>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG131: Strathclyde – ein (fast) vergessenes Königreich" ;
+	schema:episodeNumber 131 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs131/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/132>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG132: Gesche Gottfried, der Engel von Bremen" ;
+	schema:episodeNumber 132 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs132/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/133>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG133: Alexios Komnenos und der Erste Kreuzzug" ;
+	schema:episodeNumber 133 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs133/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/134>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG134: Eine kleine Geschichte des Kaiserschnitts anhand der Personen Jacob Nufer, James Barry und Margret Ann Bulkley" ;
+	schema:episodeNumber 134 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs134/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/135>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG135: Adolf Loos" ;
+	schema:episodeNumber 135 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs135/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/136>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG136: Der Jüdische Friedhof Währing" ;
+	schema:episodeNumber 136 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs136/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/137>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG137: Die Französisch-Britische Union" ;
+	schema:episodeNumber 137 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs137/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/138>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG138: Askari und die Kolonialgeschichte des Deutschen Reichs" ;
+	schema:episodeNumber 138 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs138/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/139>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG139: Als Voltaire die Lotterie knackte und steinreich wurde" ;
+	schema:episodeNumber 139 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs139/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/140>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG140: Eisbrecher für die Diplomatie – das Fußball-Länderspiel Sowjetunion gegen die BRD 1955" ;
+	schema:episodeNumber 140 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs140/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/141>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG141: Die kurze Geschichte des Kokovorismus" ;
+	schema:episodeNumber 141 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs141/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/142>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG142: Bertha Pappenheim – Gründerin des Jüdischen Frauenbundes und Sozialpionierin" ;
+	schema:episodeNumber 142 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs142/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/143>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG143: Über Marsmenschen, Massenpanik und die Entstehung eines Mythos" ;
+	schema:episodeNumber 143 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs143/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/144>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG144: Die Spanische Grippe" ;
+	schema:episodeNumber 144 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs144/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/145>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG145: Barbara von Cilli oder Wie eine 100 mal wiederholte Lüge zur Wahrheit wird" ;
+	schema:episodeNumber 145 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs145/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/146>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG146: Tripel-Allianz-Krieg" ;
+	schema:episodeNumber 146 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs146/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/147>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG147: Das Fräulein vom Amt" ;
+	schema:episodeNumber 147 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs147/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/148>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG148: Das Ende der Welt – Friedenskaiser und falsche Friedriche" ;
+	schema:episodeNumber 148 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs148/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/149>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG149: Die Kabeljaukriege" ;
+	schema:episodeNumber 149 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs149/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/150>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG150: Die Geschichte des Filmstudios Bendestorf" ;
+	schema:episodeNumber 150 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs150/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/151>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG151: Manjirō, der erste Japaner in Amerika" ;
+	schema:episodeNumber 151 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs151/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/152>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG152: Ernest Shackleton und die Endurance-Expedition" ;
+	schema:episodeNumber 152 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs152/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/153>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG153: Wien-Tour mit Thomas Harbich (#WienFakt)" ;
+	schema:episodeNumber 153 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs153/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/154>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG154: La Maupin, die duellierende Opernsängerin" ;
+	schema:episodeNumber 154 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs154/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/155>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG155: Trofim Lyssenko und der Lyssenkoismus in der Sowjetunion" ;
+	schema:episodeNumber 155 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs155/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/156>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG156: Charles Lindbergh, Alexis Carrel und die Mensch-Maschine" ;
+	schema:episodeNumber 156 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs156/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/157>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG157: Salpeter – Aufstieg und Fall einer chemischen Verbindung" ;
+	schema:episodeNumber 157 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs157/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/158>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG158: Al-Biruni und die erste Globalgeschichte" ;
+	schema:episodeNumber 158 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs158/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/159>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG159: Thorsten Logge über Geschichte und Public History" ;
+	schema:episodeNumber 159 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs159/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/160>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG160: Barbareskenstaaten und die europäischen Seemächte" ;
+	schema:episodeNumber 160 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs160/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/161>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG161: Steamboat Arabia oder Der Schatz im Maisfeld" ;
+	schema:episodeNumber 161 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs161/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/162>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG162: Novemberrevolution und die mehrfache Ausrufung der Republik" ;
+	schema:episodeNumber 162 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs162/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/163>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG163: Vernepator Cur – der Hund im Hamsterrad" ;
+	schema:episodeNumber 163 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs163/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/164>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG164: Eine kurze Geschichte des Alkoholkonsums" ;
+	schema:episodeNumber 164 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs164/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/165>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG165: Pius IX. und die kurzlebige Römische Republik von 1849" ;
+	schema:episodeNumber 165 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs165/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/166>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG166: Siegmund Bosel – die wechselvolle Geschichte eines Inflationskönigs" ;
+	schema:episodeNumber 166 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs166/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/167>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG167: Mary Toft und die Hasen" ;
+	schema:episodeNumber 167 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs167/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/168>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG168: Carl Laemmle und die Anfänge Hollywoods" ;
+	schema:episodeNumber 168 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs168/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/169>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG169: Maos Großer Sprung und die chinesische Hungersnot von 1958–62" ;
+	schema:episodeNumber 169 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs169/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/170>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG170: Auf Schatzsuche" ;
+	schema:episodeNumber 170 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs170/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/171>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG171: Eine ganz kleine Geschichte der Nacht und des Schlafs" ;
+	schema:episodeNumber 171 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs171/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/172>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG172: Eine kurze Geschichte der Armut in der Frühen Neuzeit" ;
+	schema:episodeNumber 172 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs172/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/173>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG173: Der gefährliche Garten von Vaux-le-Vicomte" ;
+	schema:episodeNumber 173 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs173/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/174>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG174: Harriet Tubman und die Underground Railroad" ;
+	schema:episodeNumber 174 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs174/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/175>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG175: C.W. Field und das erste Kabel durch den Atlantik" ;
+	schema:episodeNumber 175 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs175/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/176>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG176: Die Anfänge des Anarchismus und was Uhrmacher in der Schweiz damit zu tun haben" ;
+	schema:episodeNumber 176 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs176/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/177>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG177: Robert Fortune, Botaniker und Teespion" ;
+	schema:episodeNumber 177 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs177/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/178>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG178: Der Klosterskandal von Sant’Ambrogio" ;
+	schema:episodeNumber 178 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs178/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/179>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG179: Maria Sibylla Merian – Naturforscherin und Künstlerin" ;
+	schema:episodeNumber 179 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs179/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/180>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG180: Die Gelbe Flotte – ein Schiffskonvoi zwischen den Fronten" ;
+	schema:episodeNumber 180 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs180/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/181>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG181: Von Gulasch, Pörkölt und Nationalgerichten" ;
+	schema:episodeNumber 181 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs181/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/182>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG182: Der Zündholzkönig Ivar Kreuger" ;
+	schema:episodeNumber 182 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs182/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/183>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG183: Agrippina die Jüngere, mächtigste Frau der frühen Kaiserzeit" ;
+	schema:episodeNumber 183 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs183/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/184>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG184: Katharina Kepler – ein Hexenprozess in der Frühen Neuzeit" ;
+	schema:episodeNumber 184 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs184/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/185>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG185: Kleindeutschland und die General Slocum Katastrophe" ;
+	schema:episodeNumber 185 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs185/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/186>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG186: Die Redlichen Pioniere von Rochdale und eine kurze Geschichte der Genossenschaften" ;
+	schema:episodeNumber 186 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs186/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/187>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG187: Die Wiener Weltausstellung von 1873" ;
+	schema:episodeNumber 187 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs187/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/188>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG188: Martin Couney und die Inkubator-Ausstellungen" ;
+	schema:episodeNumber 188 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs188/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/189>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG189: Die Schlacht bei Cannae" ;
+	schema:episodeNumber 189 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs189/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/190>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG190: Die Assassinen" ;
+	schema:episodeNumber 190 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs190/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/191>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG191: Aethelfled – Warrior Queen of Mercia" ;
+	schema:episodeNumber 191 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs191/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/192>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG192: Tiere vor Gericht" ;
+	schema:episodeNumber 192 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs192-tiere-vor-gericht/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/193>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG193: Kanton Übrig – Wie Vorarlberg 1919 nicht der Schweiz beitrat" ;
+	schema:episodeNumber 193 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs193/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/194>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG194: Die Natchez und der französische Kolonialismus in Nordamerika" ;
+	schema:episodeNumber 194 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs194/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/195>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG195: Wie Gerta Stern auf der Flucht nach Panama ihren Mann aus dem KZ befreite" ;
+	schema:episodeNumber 195 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs195/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/196>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG196: Wie der Panamakanal entstand" ;
+	schema:episodeNumber 196 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs196/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/197>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG197: Das kurzlebige Königreich Finnland – und ein deutscher Adliger auf dem Thron" ;
+	schema:episodeNumber 197 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs197/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/198>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG198: Olga von Kiew oder Mit den Spatzen kam der Tod" ;
+	schema:episodeNumber 198 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs198/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/199>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG199: UC 71 und der U-Boot-Krieg im Ersten Weltkrieg" ;
+	schema:episodeNumber 199 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs199/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/200>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG200: Eine Abrechnung" ;
+	schema:episodeNumber 200 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs200/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/201>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG201: Eine kleine Geschichte des Speiseeises" ;
+	schema:episodeNumber 201 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs201/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/202>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG202: Über Brunzdoktoren und Uroskopie – die Harnschau in der vormodernen Medizin" ;
+	schema:episodeNumber 202 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs202/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/203>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG203: Bleiben oder gehen? Die Option in Südtirol 1939" ;
+	schema:episodeNumber 203 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs203/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/204>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG204: Obaysch – das viktorianische Nilpferd" ;
+	schema:episodeNumber 204 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs204/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/205>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG205: Die Befreiung von Schloss Itter" ;
+	schema:episodeNumber 205 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs205/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/206>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG206: Von Verliesen & Drachen – ein 3W6 Crossover" ;
+	schema:episodeNumber 206 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs206/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/207>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG207: William Stewart Halsted und die Chirurgie des 19. Jahrhunderts" ;
+	schema:episodeNumber 207 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs207/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/208>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG208: Die kleinste Liga der Welt – Eishockey in der DDR" ;
+	schema:episodeNumber 208 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs208/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/209>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG209: Cyriacus und die Erfindung der Archäologie" ;
+	schema:episodeNumber 209 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs209/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/210>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG210: Der Kunstfälscher Han van Meegeren" ;
+	schema:episodeNumber 210 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs210/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/211>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG211: Griechisches Feuer" ;
+	schema:episodeNumber 211 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs211/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/212>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG212: Eine kleine Geschichte der Sternbilder" ;
+	schema:episodeNumber 212 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs212/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/213>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG213: Tom Morris und eine kleine Geschichte des Golfsports" ;
+	schema:episodeNumber 213 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs213/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/214>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG214: Hedy Lamarr – Hollywoodstar und Erfinderin" ;
+	schema:episodeNumber 214 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs214/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/215>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG215: Wojtek, polnischer Soldatenbär" ;
+	schema:episodeNumber 215 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs215/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/216>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG216: Napoleon II. – Vom König von Rom zum Herzog von Reichstadt" ;
+	schema:episodeNumber 216 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs216/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/217>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG217: Wie Joseph Haydn den Kopf verlor" ;
+	schema:episodeNumber 217 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs217/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/218>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG218: Die Pazzi-Verschwörung und der Aufstieg der Medici" ;
+	schema:episodeNumber 218 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs218/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/219>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG219: Die Kotze-Affäre" ;
+	schema:episodeNumber 219 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs219/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/220>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG220: Eine kurze Geschichte der Rohrpost" ;
+	schema:episodeNumber 220 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs220/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/221>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG221: Hans Staden – ein Landsknecht bei den Menschenfressern" ;
+	schema:episodeNumber 221 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs221/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/222>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG222: Das Voynich-Manuskript" ;
+	schema:episodeNumber 222 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs222/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/223>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG223: Ramen und die Transformation Japans" ;
+	schema:episodeNumber 223 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs223/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/224>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG224: Die Balmis-Expedition und eine kurze Geschichte der Pockenimpfung" ;
+	schema:episodeNumber 224 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs224/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/225>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG225: Die Rundfahrt der Schlachtfelder" ;
+	schema:episodeNumber 225 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs225/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/226>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG226: Der Untergang der Batavia" ;
+	schema:episodeNumber 226 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs226/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/227>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG227: Die unsterbliche Henrietta Lacks" ;
+	schema:episodeNumber 227 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs227/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/228>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG228: Berliner Blau – die Erfindung einer Farbe" ;
+	schema:episodeNumber 228 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs228/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/229>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG229: Elisabeth Báthory, die (angebliche) Blutgräfin" ;
+	schema:episodeNumber 229 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs229/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/230>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG230: Die Tendaguru-Expedition und das größte Dinosaurierskelett der Welt" ;
+	schema:episodeNumber 230 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs230/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/231>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG231: Die Große Enttäuschung von 1844" ;
+	schema:episodeNumber 231 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs231/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/232>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG232: Ein Mordfall und das umfangreichste Wörterbuch der englischen Sprache" ;
+	schema:episodeNumber 232 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs232/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/233>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG233: Norton I., Kaiser der USA" ;
+	schema:episodeNumber 233 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs233/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/234>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG234: Das bekannteste Parfüm der Welt und seine russische Vorgeschichte" ;
+	schema:episodeNumber 234 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs234/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/235>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG235: Die Quarzkrise" ;
+	schema:episodeNumber 235 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs235/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/236>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG236: Monopoly – Die Geschichte eines Brettspiels" ;
+	schema:episodeNumber 236 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs236/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/237>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG237: Friedrich Anton Mesmer und der Animalische Magnetismus" ;
+	schema:episodeNumber 237 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs237/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/238>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG238: Kurze Geschichten ausgestorbener Berufe" ;
+	schema:episodeNumber 238 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs238/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/239>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG239: Die Zabern-Affäre" ;
+	schema:episodeNumber 239 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs239/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/240>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG240: René Blondlot und die Entdeckung der N-Strahlen" ;
+	schema:episodeNumber 240 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs240/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/241>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG241: General Königsmarck und der größte Kunstraub aller Zeiten" ;
+	schema:episodeNumber 241 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs241/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/242>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG242: Eine kurze Geschichte der Olympischen Spiele (der Neuzeit)" ;
+	schema:episodeNumber 242 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs242/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/243>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG243: Aeneas Coffey und eine kleine Geschichte des irischen Whiskeys" ;
+	schema:episodeNumber 243 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs243/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/244>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG244: Die Mühle von Auriol und warum ihre Zerstörung eine Besetzung Frankreichs verhindert hat" ;
+	schema:episodeNumber 244 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs244/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/245>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG245: Operation Paul Bunyan" ;
+	schema:episodeNumber 245 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs245/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/246>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG246: John Law und die Mississippi-Blase" ;
+	schema:episodeNumber 246 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs246/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/247>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG247: Der Emu Krieg von 1932" ;
+	schema:episodeNumber 247 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs247/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/248>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG248: Der Venustransit von 1761/69 und das erste wissenschaftliche Großprojekt" ;
+	schema:episodeNumber 248 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs248/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/249>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG249: Das Malireich und die Pilgerreise des vielleicht reichsten Mannes der Geschichte" ;
+	schema:episodeNumber 249 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs249/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/250>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG250: Eine kurze Geschichte der Bluttransfusion" ;
+	schema:episodeNumber 250 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs250/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/251>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG251: Der Schachtürke" ;
+	schema:episodeNumber 251 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs251/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/252>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG252: Harvard Computers – Wie Astronominnen die Sterne neu sortierten" ;
+	schema:episodeNumber 252 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs252/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/253>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG253: Martin Frobisher und die Steine" ;
+	schema:episodeNumber 253 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs253/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/254>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG254: Eine kurze Geschichte des Kautschuks" ;
+	schema:episodeNumber 254 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs254/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/255>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG255: Die 47 Ronin" ;
+	schema:episodeNumber 255 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs255/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/256>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG256: Der Rütlischwur und die Anfänge der Schweizerischen Eidgenossenschaft" ;
+	schema:episodeNumber 256 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs256/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/257>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG257: Alexander von Humboldt – Bugtales.FM Crossover" ;
+	schema:episodeNumber 257 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs257/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/258>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG258: Der Andrews Raid – Eine Lokomotive auf Abwegen" ;
+	schema:episodeNumber 258 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs258/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/259>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG259: Operation Mincemeat – Eine Geheimdienstaktion während des Zweiten Weltkriegs" ;
+	schema:episodeNumber 259 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs259/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/260>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG260: Der Rattenfänger von Hameln" ;
+	schema:episodeNumber 260 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs260/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/261>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG261: Adam Worth, der Napoleon des Verbrechens" ;
+	schema:episodeNumber 261 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs261/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/262>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG262: Die Strawhat Riots" ;
+	schema:episodeNumber 262 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs262/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/263>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG263: Lavoisier und die Entdeckung des Sauerstoffs" ;
+	schema:episodeNumber 263 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs263/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/264>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG264: Seondeok, erste Königin Koreas" ;
+	schema:episodeNumber 264 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs264/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/265>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG265: Syphilis und die Tuskegee-Syphilis-Studie" ;
+	schema:episodeNumber 265 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs265/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/266>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG266: Die Schlacht von Azincourt" ;
+	schema:episodeNumber 266 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs266/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/267>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG267: Die Leichensynode von 897" ;
+	schema:episodeNumber 267 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs267/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/268>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG268: Die Gebrüder Kellogg und die Erfindung des Frühstücks" ;
+	schema:episodeNumber 268 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs268/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/269>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG269: Monika Ertl und ein Mord im Generalkonsulat" ;
+	schema:episodeNumber 269 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs269/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/270>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG270: Eine thüringische Katastrophe" ;
+	schema:episodeNumber 270 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/zs270/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/271>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG271: Caroline Neuber und der Hanswurststreit" ;
+	schema:episodeNumber 271 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag271/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/272>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG272: Am Ende der Welt – Napoleons letzte Jahre im Exil" ;
+	schema:episodeNumber 272 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag272/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/273>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG273: Der Alchemist und Goldmacher Franz Tausend" ;
+	schema:episodeNumber 273 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag273/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/274>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG274: Das Petzvalobjektiv" ;
+	schema:episodeNumber 274 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag274/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/275>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG275: Victor Lustig – Der Mann, der den Eiffelturm verkaufte" ;
+	schema:episodeNumber 275 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag275/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/276>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG276: Aufruhr am Sankt-Scholastika-Tag" ;
+	schema:episodeNumber 276 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag276/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/277>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG277: Der Aufstand und Putsch von Wilmington" ;
+	schema:episodeNumber 277 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag277/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/278>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG278: Von göttlichen Robotern und feuerspeienden Bullen" ;
+	schema:episodeNumber 278 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag278/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/279>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG279: Muskat und Manhattan" ;
+	schema:episodeNumber 279 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag279/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/280>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG280: Der versunkene Kontinent Lemuria" ;
+	schema:episodeNumber 280 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag280/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/281>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG281: Der Putschversuch vom 23. Februar 1981" ;
+	schema:episodeNumber 281 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag281/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/282>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG282: Fredegund, Brunhild und der merowingische Bruderkrieg" ;
+	schema:episodeNumber 282 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag282/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/283>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG283: Lola Montez" ;
+	schema:episodeNumber 283 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag283/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/284>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG284: „There is death in the pot“ – Friedrich Accum und die Lebensmittelfälscher" ;
+	schema:episodeNumber 284 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag284/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/285>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG285: Joseph Petrosino und die Black Hand" ;
+	schema:episodeNumber 285 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag285/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/286>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG286: Die verschwundenen Seefrauen Islands" ;
+	schema:episodeNumber 286 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag286/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/287>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG287: Eine kurze Geschichte des Ballonfahrens und Fallschirmspringens" ;
+	schema:episodeNumber 287 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag287/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/288>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG288: Der Senat, der über Leichen ging" ;
+	schema:episodeNumber 288 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag288/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/289>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG289: Ein Kreuzzug, der einen ungeahnten Verlauf nahm" ;
+	schema:episodeNumber 289 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag289/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/290>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG290: Der Angriff der Leichten Brigade" ;
+	schema:episodeNumber 290 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag290/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/291>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG291: Ein erfolgreicher Kampf gegen die Kolonialisierung" ;
+	schema:episodeNumber 291 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag291/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/292>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG292: Paul Grüninger" ;
+	schema:episodeNumber 292 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag292/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/293>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG293: Als in Europa Menschen ausgestellt wurden" ;
+	schema:episodeNumber 293 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag293/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/294>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG294: Erwin Kreuz" ;
+	schema:episodeNumber 294 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag294/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/295>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG295: Die Verwandlung des Axolotls" ;
+	schema:episodeNumber 295 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag295/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/296>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG296: Jeanne la Flamme und der bretonische Erbfolgekrieg" ;
+	schema:episodeNumber 296 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag296/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/297>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG297: Die Revolutionärin und (fast) vergessene Pionierin der Frauenbewegung – Mathilde Franziska Anneke" ;
+	schema:episodeNumber 297 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag297/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/298>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG298: Die Grüne Fee und der Absinthismus" ;
+	schema:episodeNumber 298 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag298/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/299>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG299: Wie Basketball von James Naismith erfunden wurde" ;
+	schema:episodeNumber 299 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag299/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/300>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG300: Der vorläufige Höhepunkt" ;
+	schema:episodeNumber 300 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag300/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/301>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG301: Mary Seacole" ;
+	schema:episodeNumber 301 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag301/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/302>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG302: Sealand und die Gründung einer Mikronation" ;
+	schema:episodeNumber 302 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag302/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/303>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG303: Brunelleschi und die Kathedrale von Florenz" ;
+	schema:episodeNumber 303 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag303/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/304>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG304: Der Falschgeldbetrug von Alves dos Reis" ;
+	schema:episodeNumber 304 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag304/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/305>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG305: Der Piltdown-Mensch" ;
+	schema:episodeNumber 305 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag305/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/306>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG306: Motoren, Krieg und Inflation – Aufstieg und Fall des Unternehmers Camillo Castiglioni" ;
+	schema:episodeNumber 306 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag306/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/307>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG307: Njinga, Königin von Ndongo und Matamba" ;
+	schema:episodeNumber 307 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag307/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/308>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG308: Eine kurze Geschichte des Urlaubs und Reisens" ;
+	schema:episodeNumber 308 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag308/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/309>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG309: Die Bestie des Gévaudan" ;
+	schema:episodeNumber 309 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag309/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/310>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG310: Arbeitskampf, Streik und das Leben der Gewerkschaftspionierin Paula Thiede" ;
+	schema:episodeNumber 310 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag310/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/311>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG311: Der Imjin-Krieg" ;
+	schema:episodeNumber 311 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag311/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/312>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG312: Der beste aller Ritter – das Leben von Guillaume le Maréchal" ;
+	schema:episodeNumber 312 ;
+	schema:WebSite "https://www.geschichte.fm/podcast/gag312/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/313>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG313: Die Geschwister Herschel" ;
+	schema:episodeNumber 313 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag313/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/314>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG314: Eine kurze Geschichte der Cholera" ;
+	schema:episodeNumber 314 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag314/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/315>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG315: Der Mehlkrieg von 1775" ;
+	schema:episodeNumber 315 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag315/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/316>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG316: Die Shakespeare-Unruhen" ;
+	schema:episodeNumber 316 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag316/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/317>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG317: Roger Tichborne – die wundersame Rückkehr des Sohnes" ;
+	schema:episodeNumber 317 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag317/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/318>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG318: Der Nuklearunfall von Goiânia" ;
+	schema:episodeNumber 318 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag318/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/319>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG319: Ashoka der Große" ;
+	schema:episodeNumber 319 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag319/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/320>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG320: In 72 Tagen um die Welt – Journalistin Nellie Bly" ;
+	schema:episodeNumber 320 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag320/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/321>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG321: Aufstieg und möglicher Fall der Banane" ;
+	schema:episodeNumber 321 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag321/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/322>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG322: Portugal und der Seeweg nach Indien" ;
+	schema:episodeNumber 322 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag322/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" ;
+	schema:mentions <#organization/east-india-company> .
+
+<#episode/323>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG323: Die Republik Ezo und das Ende des Shogunats" ;
+	schema:episodeNumber 323 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag323/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/324>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG324: Mit dem Ballon zum Nordpol – Andrées Polarexpedition von 1897" ;
+	schema:episodeNumber 324 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag324/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/325>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG325: Der Große Smog von 1952" ;
+	schema:episodeNumber 325 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag325/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/326>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG326: Ausgestorbene und außergewöhnliche Berufe" ;
+	schema:episodeNumber 326 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag326/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/327>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG327: Das große Geburtenrennen von Toronto" ;
+	schema:episodeNumber 327 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag327/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/328>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG328: P. T. Barnum und die größte Show der Welt" ;
+	schema:episodeNumber 328 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag328/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/329>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG329: Wie der Wolf zum Hund wurde" ;
+	schema:episodeNumber 329 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag329/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/330>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG330: Zum Tode verurteilt – Catharina Linck alias Anastasius Lagrantinus Rosenstengel" ;
+	schema:episodeNumber 330 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag330/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/331>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG331: Wie Tetris die Welt eroberte" ;
+	schema:episodeNumber 331 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag331/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/332>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG332: Wie Gregor MacGregor ein Land verkaufte, das es gar nicht gab" ;
+	schema:episodeNumber 332 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag332/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/333>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG333: Alexandria" ;
+	schema:episodeNumber 333 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag333/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/334>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG334: Rachel Carson und der stumme Frühling" ;
+	schema:episodeNumber 334 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag334/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/335>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG335: Aqua Tofana und die Giftmischerinnen des 17. Jahrhunderts" ;
+	schema:episodeNumber 335 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag335/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/336>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG336: George Smith und die Entdeckung des Gilgamesch-Epos" ;
+	schema:episodeNumber 336 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag336/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/337>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG337: Über Hummer, Kaviar und wie das Loch in den Donut kam" ;
+	schema:episodeNumber 337 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag337/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/338>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG338: Eine neue Gesellschaft – Frühsozialist Robert Owen" ;
+	schema:episodeNumber 338 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag338/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/339>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG339: Der Vocoder" ;
+	schema:episodeNumber 339 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag339/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/340>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG340: Tauben, die Raketen steuern und Kybernetik" ;
+	schema:episodeNumber 340 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag340/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/341>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG341: Der Exorzismus der Marthe Brossier" ;
+	schema:episodeNumber 341 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag341/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/342>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG342: Das Stockholmer Blutbad" ;
+	schema:episodeNumber 342 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag342/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/343>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG343: Phoebus und die geplante Obsoleszenz" ;
+	schema:episodeNumber 343 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag343/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/344>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG344: Der Artischockenkrieg" ;
+	schema:episodeNumber 344 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag344/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/345>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG345: Suffrajitsu" ;
+	schema:episodeNumber 345 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag345/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/346>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG346: Die längste Hängebrücke der Welt" ;
+	schema:episodeNumber 346 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag346/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/347>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG347: Adrianopel 378" ;
+	schema:episodeNumber 347 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag347/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/348>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG348: Der Anschlag auf die Mosel" ;
+	schema:episodeNumber 348 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag348/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/349>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG349: Konstantin Phaulkon im Königreich Ayutthaya" ;
+	schema:episodeNumber 349 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag349/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/350>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG350: Der Bauernkrieg und die Revolution von 1525" ;
+	schema:episodeNumber 350 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag350/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/351>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG351: Die Erfindung des Saxophons – Aufstieg und Fall des Adolphe Sax" ;
+	schema:episodeNumber 351 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag351/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/352>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG352: Wallace und das Rennen um die Evolutionstheorie" ;
+	schema:episodeNumber 352 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag352/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/353>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG353: Wallada" ;
+	schema:episodeNumber 353 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag353/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/354>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG354: Die Halsbandaffäre" ;
+	schema:episodeNumber 354 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag354/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/355>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG355: Der Englische Schweiß" ;
+	schema:episodeNumber 355 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag355/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/356>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG356: Das DeLorean-Drama" ;
+	schema:episodeNumber 356 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag356/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/357>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG357: Mary Kingsley" ;
+	schema:episodeNumber 357 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag357/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/358>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG358: Philipp Reis und die Erfindung des Telefons" ;
+	schema:episodeNumber 358 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag358/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/359>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG359: Eine kleine Geschichte des Schachspiels" ;
+	schema:episodeNumber 359 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag359/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/360>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG360: Unglück am Matterhorn" ;
+	schema:episodeNumber 360 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag360/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/361>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG361: Gustave Trouvé – der vergessene Erfinder" ;
+	schema:episodeNumber 361 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag361/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/362>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG362: Bayerns letzte Kurfürstin" ;
+	schema:episodeNumber 362 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag362/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/363>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG363: Duke Kahanamoku" ;
+	schema:episodeNumber 363 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag363/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/364>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG364: Mord und Madrigale – Carlo Gesualdo" ;
+	schema:episodeNumber 364 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag364/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/365>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG365: The Ghost Army" ;
+	schema:episodeNumber 365 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag365/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/366>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG366: Das Attentat von Anagni" ;
+	schema:episodeNumber 366 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag366/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/367>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG367: Untergang und Comeback der VASA" ;
+	schema:episodeNumber 367 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag367/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/368>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG368: Wie das Jod ins Salz kam" ;
+	schema:episodeNumber 368 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag368/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/369>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG369: Der Struwwelpeter" ;
+	schema:episodeNumber 369 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag369/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/370>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG370: Der Kodex des Archimedes" ;
+	schema:episodeNumber 370 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag370/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/371>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG371: Galla Placidia" ;
+	schema:episodeNumber 371 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag371/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/372>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG372: Wie das Roulette eine Null verlor" ;
+	schema:episodeNumber 372 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag372/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/373>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG373: Morocco und der Kluge Hans" ;
+	schema:episodeNumber 373 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag373/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/374>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG374: Ludwik Fleck und das Fleckfieber" ;
+	schema:episodeNumber 374 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag374/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/375>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG375: Sofia Kowalewskaja, „Königin der Wissenschaft“" ;
+	schema:episodeNumber 375 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag375/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/376>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG376: Nagelmackers und der Orient-Express" ;
+	schema:episodeNumber 376 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag376/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/377>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG377: Aufstieg und Fall des Templerordens" ;
+	schema:episodeNumber 377 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag377/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/378>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG378: Ein langer Marsch durch Feindesland" ;
+	schema:episodeNumber 378 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag378/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/379>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG379: Theodor von Neuhoff – König von Korsika" ;
+	schema:episodeNumber 379 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag379/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/380>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG380: Das Maß aller Dinge" ;
+	schema:episodeNumber 380 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag380/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/381>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG381: Mau Piailug und die Besiedelung des Pazifiks" ;
+	schema:episodeNumber 381 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag381/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/382>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG382: Der erste Film" ;
+	schema:episodeNumber 382 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag382/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/383>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG383: Bletchley Park" ;
+	schema:episodeNumber 383 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag383/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/384>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG384: Flaschenpost und die Erforschung der Ozeane" ;
+	schema:episodeNumber 384 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag384/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/385>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG385: Delmonico’s und der erste Starkoch der USA" ;
+	schema:episodeNumber 385 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag385/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/386>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG386: Der Wettlauf zum Nordpol" ;
+	schema:episodeNumber 386 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag386/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/387>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG387: Nurhaci und die Entstehung der Mandschu" ;
+	schema:episodeNumber 387 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag387/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/388>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG388: Marie Tussaud und die Wachsfiguren" ;
+	schema:episodeNumber 388 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag388/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/389>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG389: Spieglein, Spieglein an der Wand" ;
+	schema:episodeNumber 389 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag389/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/390>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG390: Kleopatra Selene und das Ende der Römischen Republik" ;
+	schema:episodeNumber 390 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag390/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/391>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG391: Celia Cooney, die Banditin mit der Kurzhaarfrisur" ;
+	schema:episodeNumber 391 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag391/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/392>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG392: Phosphor und der Streik der Streichholzarbeiterinnen" ;
+	schema:episodeNumber 392 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag392/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/393>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG393: Die Schlacht von Zama" ;
+	schema:episodeNumber 393 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag393/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/394>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG394: Die Verurteilung von Sacco und Vanzetti" ;
+	schema:episodeNumber 394 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag394/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/395>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG395: Barbe-Nicole Ponsardin und die Begründung eines Champagnerimperiums" ;
+	schema:episodeNumber 395 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag395/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/396>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG396: Helene Kottannerin und der Raub der Stephanskrone" ;
+	schema:episodeNumber 396 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag396/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/397>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG397: Hy Brasil" ;
+	schema:episodeNumber 397 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag397/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/398>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG398: Der Goldene Brief" ;
+	schema:episodeNumber 398 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag398/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/399>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG399: John Brown und sein gescheiterter Sklavenaufstand" ;
+	schema:episodeNumber 399 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag399/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/400>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG400: GAG X Anno Mundi – Anicia Juliana" ;
+	schema:episodeNumber 400 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag400/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/401>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG401: Amerika und die Weltkarte von Waldseemüller" ;
+	schema:episodeNumber 401 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag401/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/402>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG402: Die Vegetarian Society und die Begründung des modernen Vegetarismus" ;
+	schema:episodeNumber 402 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag402/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/403>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG403: Maxentius – Der letzte Kaiser in Rom" ;
+	schema:episodeNumber 403 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag403/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/404>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG404: Not Found" ;
+	schema:episodeNumber 404 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag404/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/405>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG405: Bonifatius, Apostel der Deutschen" ;
+	schema:episodeNumber 405 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag405/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/406>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG406: Die SMS Wolf und die Piraten des Kaisers" ;
+	schema:episodeNumber 406 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag406/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/407>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG407: Das katastrophale Ende einer Kolonie" ;
+	schema:episodeNumber 407 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag407/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/408>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG408: Das kurze und tragische Leben des Évariste Galois" ;
+	schema:episodeNumber 408 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag408/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/409>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG409: Pferdefotos und ein Mord" ;
+	schema:episodeNumber 409 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag409/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/410>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG410: Lady Six Sky und eine kurze Geschichte der Maya" ;
+	schema:episodeNumber 410 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag410/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/411>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG411: Der Untergang der Thomas W. Lawson" ;
+	schema:episodeNumber 411 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag411/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/412>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG412: Samuel Pepys und das außergewöhnlichste Tagebuch des 17. Jahrhunderts" ;
+	schema:episodeNumber 412 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag412/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/413>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG413: Paracelsus – Arzt und Alchemist" ;
+	schema:episodeNumber 413 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag413/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/414>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG414: Ibn Fadlān und die Reise zur Wolga" ;
+	schema:episodeNumber 414 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag414/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/415>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG415: Polarpionier Fridtjof Nansen" ;
+	schema:episodeNumber 415 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag415/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/416>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG416: Wie das Münzgeld entstand" ;
+	schema:episodeNumber 416 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag416/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/417>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG417: Auf der Suche nach den Quellen des Nils" ;
+	schema:episodeNumber 417 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag417/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/418>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG418: Das älteste Gewürz der Welt" ;
+	schema:episodeNumber 418 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag418/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/419>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG419: Therese von Thurn und Taxis und das Ende der Reichspost" ;
+	schema:episodeNumber 419 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag419/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/420>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG420: Harry Anslinger und der erste „War on Drugs“" ;
+	schema:episodeNumber 420 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag420/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/421>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG421: Playfair und die Erfindung des Balkendiagramms" ;
+	schema:episodeNumber 421 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag421/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/422>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG422: Eine kleine Geschichte der Parapsychologie" ;
+	schema:episodeNumber 422 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag422/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/423>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG423: Der Sohn Gottes Hong Xiuquan und sein Aufstand gegen das imperiale China";
+	schema:episodeNumber 423 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag423/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/424>
+	rdf:type schema:PodcastEpisode ;
+	schema:name "GAG424: Die Erfindung der Briefmarke" ;
+	schema:episodeNumber 424 ;
+	schema:WebSite "https://www.geschichte.fm/archiv/gag424/" ;
+	schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/ebdadb54-5fbd-415b-9e23-7d1a7eeb3107.jpg" .
+
+<#episode/425>
+    rdf:type schema:PodcastEpisode ;
+    schema:name "GAG425: Shampooing und die vier Leben des Dean Mahomet" ;
+    schema:episodeNumber 425 ;
+    schema:WebSite "https://www.geschichte.fm/archiv/gag425/" ;
+    schema:thumbnailUrl "https://main.podigee-cdn.net/uploads/u32411/13ce5fc6-3359-4596-9a36-cfc2b2f6bbb0.jpg" ;
+	schema:mentions <#person/dean-mahomet> ;
+	schema:mentions <#organization/east-india-company> .
+
