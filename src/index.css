@@ -38,15 +38,15 @@
 }
 
 .mdx-style {
-    @apply container mx-auto max-w-[1000px];
+    @apply fl-container max-w-[1000px] text-justify;
 }
 
 .mdx-style h2 {
-    @apply text-4xl mb-4 mt-7;
+    @apply text-2xl md:text-4xl mb-4 mt-7;
 }
 
 .mdx-style h3 {
-    @apply text-3xl mb-4 mt-7;
+    @apply text-xl md:text-3xl mb-4 mt-7;
 }
 
 .mdx-style p {
@@ -59,4 +59,12 @@
 
 .mdx-style p>a {
 	@apply underline text-gagyellow;
+}
+
+.mdx-style p.example {
+	@apply border rounded-xl bg-gray-100 p-3 pb-0 shadow;
+}
+
+.mdx-style .disclaimer {
+	@apply text-sm;
 }
