@@ -1,4 +1,4 @@
-import { For } from 'solid-js'
+import { For, Show } from 'solid-js'
 
 export default function Card(props: {
   title: string
@@ -30,16 +30,18 @@ export default function Card(props: {
                 <summary>
                   <span class="inline-flex items-center">
                     {person.name}
-                    <a
-                      title="Link zu Wikipedia"
-                      class="flex ml-1"
-                      href={person.wikipediaUrl}
-                    >
-                      <img
-                        src="/wikipedia.svg"
-                        alt="wikipedia"
-                      />
-                    </a>
+                    <Show when={person.wikipediaUrl}>
+                      <a
+                        title="Link zu Wikipedia"
+                        class="flex ml-1"
+                        href={person.wikipediaUrl}
+                      >
+                        <img
+                          src="/wikipedia.svg"
+                          alt="wikipedia"
+                        />
+                      </a>
+                    </Show>
                   </span>
                 </summary>
 

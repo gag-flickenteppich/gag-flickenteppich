@@ -9,7 +9,7 @@ type GagEpisode = {
 type Person = {
 	id: string
 	name: string
-	wikipediaUrl: string
+	wikipediaUrl?: string
 	references?: Partial<GagEpisode>[]
 }
 
