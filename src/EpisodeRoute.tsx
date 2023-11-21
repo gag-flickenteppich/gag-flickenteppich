@@ -18,7 +18,7 @@ export default function EpisodeRoute() {
 
   return (
     <>
-      <section class="fl-container h-full sm:h-[50vh] flex items-center justify-center">
+      <section class="fl-container h-full sm:min-h-[50vh] flex items-center justify-center">
         <Switch>
           <Match when={episodeResource.loading}>
             <div class="flex flex-col gap-4 items-center text-xl">
