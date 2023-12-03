@@ -1,4 +1,3 @@
-import { For, Show } from 'solid-js'
 import LinkList from './LinkList'
 
 export default function Card(props: {
