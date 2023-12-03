@@ -10,6 +10,7 @@ type CardInfo = {
   persons: Person[]
   events: GagEvent[]
   thumbnailUrl?: string
+  episodeNumber: number
 }
 
 export default function EpisodeRoute() {
@@ -37,6 +38,7 @@ export default function EpisodeRoute() {
               persons={episodeResource()?.persons ?? []}
               thumbnailUrl={episodeResource()?.thumbnailUrl ?? ''}
               events={episodeResource()?.events ?? []}
+              currentEpisode={episodeResource()?.episodeNumber ?? 0}
             />
           </Match>
         </Switch>
@@ -53,11 +55,13 @@ async function fetchCardInfo(episodeNumber: string): Promise<CardInfo> {
   const events = await fetchEvents(episodeNumber);
 
 
+
   return {
     title: episode.name,
     persons: persons,
     thumbnailUrl: episode.thumbnailUrl ?? '',
-    events: events
+    events: events,
+    episodeNumber: +episodeNumber
   }
 }
 
