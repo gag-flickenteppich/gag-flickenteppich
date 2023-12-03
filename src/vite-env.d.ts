@@ -13,6 +13,13 @@ type Person = {
 	references?: Partial<GagEpisode>[]
 }
 
+type GagEvent = {
+	id: string
+	name: string
+	wikipediaUrl?: string
+	references?: Partial<GagEpisode>[]
+}
+
 type RdfBinding = {
 	get: (s: string) => { value: string }
 }

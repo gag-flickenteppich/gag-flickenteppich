@@ -8,6 +8,7 @@ import Card from './Card'
 type CardInfo = {
   title: string
   persons: Person[]
+  events: GagEvent[]
   thumbnailUrl?: string
 }
 
@@ -35,6 +36,7 @@ export default function EpisodeRoute() {
               title={episodeResource()?.title ?? ''}
               persons={episodeResource()?.persons ?? []}
               thumbnailUrl={episodeResource()?.thumbnailUrl ?? ''}
+              events={episodeResource()?.events ?? []}
             />
           </Match>
         </Switch>
@@ -46,7 +48,20 @@ export default function EpisodeRoute() {
 async function fetchCardInfo(episodeNumber: string): Promise<CardInfo> {
   console.debug('fetch card info')
 
-  // fetch episode
+  const episode = await fetchEpisode(episodeNumber);
+  const persons = await fetchPersons(episodeNumber);
+  const events = await fetchEvents(episodeNumber);
+
+
+  return {
+    title: episode.name,
+    persons: persons,
+    thumbnailUrl: episode.thumbnailUrl ?? '',
+    events: events
+  }
+}
+
+async function fetchEpisode(episodeNumber: string) {
   const episodeResponse = await fetch(BASE_URL + `episodes.php?episodeNumber=${episodeNumber}`, { headers: { Accept: "application/vnd.api+json" } });
   const episodePayload: JsonApiDataResponse<GagEpisode, never> = await episodeResponse.json();
   let e: JsonApiResourceObject<GagEpisode>;
@@ -56,9 +71,10 @@ async function fetchCardInfo(episodeNumber: string): Promise<CardInfo> {
     e = episodePayload.data;
   }
   const episode = { ...e.attributes }
+  return episode
+}
 
-
-  // fetch persons
+async function fetchPersons(episodeNumber: string) {
   const response = await fetch(BASE_URL + `persons.php?episodeNumber=${episodeNumber}`, { headers: { Accept: "application/vnd.api+json" } });
   const payload: JsonApiDataResponse<Person, { attributes: GagEpisode }> = await response.json();
   let persons: Person[] = [];
@@ -82,20 +98,32 @@ async function fetchCardInfo(episodeNumber: string): Promise<CardInfo> {
     persons = [{ ...p.attributes, id: p.id }]
   }
 
+  return persons;
+}
 
-  /*   for (const person of persons) {
-      const references = await fetcher.fetch(
-          new FetchReferencesForPersonStrategy(person.id)
-      )
-      person.references = references
+async function fetchEvents(episodeNumber: string) {
+  const response = await fetch(BASE_URL + `events.php?episodeNumber=${episodeNumber}`, { headers: { Accept: "application/vnd.api+json" } });
+  const payload: JsonApiDataResponse<GagEvent, { attributes: GagEpisode }> = await response.json();
+  let events: GagEvent[] = [];
+  if (payload.data instanceof Array) {
+    events = payload.data.map(p => {
+      const event = { ...p.attributes, id: p.id }
+      event.references = [];
+      if (p.relationships) {
+        let relationhips = p.relationships["episodes"];
+        if (relationhips.data instanceof Array) {
+          relationhips.data.forEach(ep => {
+            let found = payload.included!.find(x => x.attributes.episodeNumber === ep.id);
+            if (found) { event.references?.push(found.attributes); }
+          })
+        }
+      }
+      return event;
+    })
+  } else {
+    const p = payload.data;
+    events = [{ ...p.attributes, id: p.id }]
   }
 
-  const episode = foundEpisodes[0]
-  console.log(episode)
- */
-  return {
-    title: episode.name,
-    persons: persons,
-    thumbnailUrl: episode.thumbnailUrl ?? '',
-  }
+  return events;
 }
